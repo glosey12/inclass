@@ -8,8 +8,8 @@ public class LLNode<T> {
         this.info=info;
         this.next=null;
     }
-    public void setNext(LLNode<T> node){
-        this.next = node;
+    public void setNext(LLNode<T> next){
+        this.next = next;
     }
     public LLNode<T> getNext(){
         return this.next;
@@ -21,4 +21,5 @@ public class LLNode<T> {
         return this.info;
     }
 }
+
 
