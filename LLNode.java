@@ -1,5 +1,5 @@
-package LinkedListIntroduction;
-
+package LinkedListIntroduction;]
+package Stack;
 public class LLNode<T> {
     T info;
     LLNode<T> next;
@@ -21,3 +21,4 @@ public class LLNode<T> {
         return this.info;
     }
 }
+
